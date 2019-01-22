@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Борис Фесенко](https://up.htmlacademy.ru/htmlcss/24/user/974301).
-* Наставник: `Андрей Грачев`(https://up.htmlacademy.ru/htmlcss/24/user/252055).
+* Наставник: [Андрей Грачев](https://up.htmlacademy.ru/htmlcss/24/user/252055).
 
 ---
 
