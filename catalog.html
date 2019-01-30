@@ -5,102 +5,98 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
-    <header class="catalog-header">
-      <nav class="catalog-navigation"><!--Начало основной навигации-->
-        <a class="catalog-header-logo" href="index.html">
+    <header class="main-header">
+      <nav class="main-navigation"><!--Начало основной навигации-->
+        <a class="main-header-logo" href="index.html">
           <img src="img/main-logo.svg" width="#" height="#" alt="Sity of Sedona">
         </a>
         <ul class="site-navigatyion">
           <li><a href="info.html">Информация</a></li>
           <li><a href="foto-video.html">Фото и видео</a></li>
           <li><a href="map-state.html">Карта штата</a></li>
-          <li class="site-navigatyion-current"><a href="atalog.html">Гостиницы</a></li>
+          <li class="site-navigatyion-current"><a href="catalog.html">Гостиницы</a></li><!--Формальная ссылка на текущую страницу-->
         </ul>
       </nav><!--Завершение основной навигации-->
       </header>
-      <main class="conteiner">
+      <main class="container">
         <h1 class="visually-hidden">Отели</h1><!--Скрыть-->
           <section class="filters"> <!--Фильтр-->
             <h2 class="visually-hidden">Фильтр товаров</h2><!--Скрыть-->
-            <!--Здесь будет фильтр-->
+<!--Здесь будет фильтр-->
           </section>
           <section class="hotels"> <!--Перечень отелей-->
-          <h2 class="visually-hidden">Отобранные отели</h2>
-          <ul class="catalog-list">
-            <li class="catalog-item"><!--Карточка отеля 1-->
-            <h3>
-              <a href="catalog-item.html">
-                <span class="catalog-category">Amara resort and spa</span>
-                <span class="catalog-item-title">"Гостиница"</span>
-              </a>
-              </h3>
-              <p>
-                <a href="catalog-item.html">
-                <img src="img/hotel-1.jpg" width="#" height="#" alt="Amara resort&spa">
-              </a>
-              </p>
-              <p>
-               <b>от 4000 P</b>
-               <a class="button-deploy" href="#">Подробнее</a>
-               <a class="button-book" href="#">Забронировать</a>
-              </p>
-            </li>
-
-            <li class="catalog-item"><!--Карточка отеля 2-->
-              <h3>
-                <a href="catalog-item.html">
-                  <span class="catalog-category">Desert quail inn</span>
-                  <span class="catalog-item-title">"Мотель"</span>
+            <h2 class="visually-hidden">Отобранные отели</h2>
+            <ul class="catalog-list">
+<!--Карточка отеля 1-->
+              <li class="catalog-item">
+                <h3 class="catalog-category">Amara resort and spa</h3>
+                <a href="catalog-item#.html"><!--Ссылка на страницу конкретного отеля-->
+                <p class="catalog-item-title">"Гостиница"</p>
                 </a>
-                </h3>
                 <p>
-                  <a href="catalog-item.html">
-                  <img src="img/hotel-2.jpg" width="#" height="#" alt="Desert quail inn">
-                </a>
+                  <a href="catalog-item#.html"><!--Ссылка на страницу конкретного отеля-->
+                    <img src="img/hotel-1.jpg" width="#" height="#" alt="Amara resort&spa">
+                  </a>
                 </p>
                 <p>
-                 <b>от 5000 P</b>
-                 <a class="button-deploy" href="#">Подробнее</a>
-                 <a class="button-book" href="#">Забронировать</a>
+                  <b>от 4000 P</b>
+                  <a class="button-deploy" href="#">Подробнее</a>
+                  <a class="button-book" href="#">Забронировать</a>
                 </p>
               </li>
-
-              <li class="catalog-item"><!--Карточка отеля 3-->
-                <h3>
-                  <a href="catalog-item.html">
-                    <span class="catalog-category">Villas poco diablo</span>
-                    <span class="catalog-item-title">"Аппартаменты"</span>
+<!--Карточка отеля 2-->
+              <li class="catalog-item">
+                <h class="catalog-category">Desert quail inn</h3>
+                <a href="catalog-item#.html"><!--Ссылка на страницу конкретного отеля-->
+                <p class="catalog-item-title">"Мотель"</p>
+                </a>
+                <p>
+                  <a href="catalog-item#.html"><!--Ссылка на страницу конкретного отеля-->
+                    <img src="img/hotel-2.jpg" width="#" height="#" alt="Desert quail inn">
                   </a>
-                  </h3>
+                </p>
+                <p>
+                  <b>от 5000 P</b>
+                  <a class="button-deploy" href="#">Подробнее</a>
+                  <a class="button-book" href="#">Забронировать</a>
+                </p>
+              </li>
+<!--Карточка отеля 3-->
+              <li class="catalog-item">
+                <h3 class="catalog-category">Villas poco diablo</h3>
+                  <a href="catalog-item#.html"><!--Ссылка на страницу конкретного отеля-->
+                    <p class="catalog-item-title">"Аппартаменты"</p>
+                  </a>
                   <p>
-                    <a href="catalog-item.html">
-                    <img src="img/hotel-3.jpg" width="#" height="#" alt="Villas poco diablo">
+                    <a href="catalog-item#.html"><!--Ссылка на страницу конкретного отеля-->
+                      <img src="img/hotel-3.jpg" width="#" height="#" alt="Villas poco diablo">
                   </a>
                   </p>
                   <p>
-                   <b>от 2000 P</b>
-                   <a class="button-deploy" href="#">Подробнее</a>
-                   <a class="button-book" href="#">Забронировать</a>
+                    <b>от 2000 P</b>
+                    <a class="button-deploy" href="#">Подробнее</a>
+                    <a class="button-book" href="#">Забронировать</a>
                   </p>
-                </li>
-          </ul>
+              </li>
+            </ul>
           </section>
         </main>
-
-        <!--Подвал"-->
+  <!--Подвал"-->
         <footer class="main-footer">
-         <a class="hashtag" href="#">#visitsedona</a>
-         <div class="footer-social">
-           <ul><!--Соцсети"-->
-             <li><a class="social-button" href="#">Твиттер</a></li>
-             <li><a class="social-button" href="#">Фейсбук</a></li>
-             <li><a class="social-button" href="#">Ютьюб</a></li>
-           </ul>
-        </div>
-        <p class="footer-copyright"><!--Разработчик"-->
-           <b>Разработано</b>
-           <img class="" src="img/htmlacademy.jpg" width="#" height="#" alt="html academy"><a class="button" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
-        </p>
+          <a class="hashtag" href="#">#visitsedona</a>
+          <div class="footer-social">
+            <ul><!--Соцсети"-->
+              <li><a class="social-button" href="#">Твиттер</a></li>
+              <li><a class="social-button" href="#">Фейсбук</a></li>
+              <li><a class="social-button" href="#">Ютьюб</a></li>
+            </ul>
+          </div>
+          <p class="footer-copyright"><!--Разработчик"-->
+            <b>Разработано</b>
+            <a class="button-copyright" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy
+              <img class="img-copyright" src="img/htmlacademy.jpg" width="#" height="#" alt="html academy">
+            </a>
+          </p>
         </footer>
       </body>
     </html>
