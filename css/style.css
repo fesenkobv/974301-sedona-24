@@ -1,0 +1,195 @@
+body{
+/*Обнуление отступов*/
+  padding: 0;
+  margin: 0;
+/*Свойства текста*/
+  font-family: "PT Sans";
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+/*Задник*/
+  background-color: #ffffff;
+}
+/*визуально спрятанный*/
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  }
+/*картинка задника*/
+.welcom{
+  background-image: url("../img/background-photo.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+/*фороматирование ссылок*/
+a{
+  text-decoration: none;
+  color:#000000;
+}
+/*форматирования текста основного навигатора*/
+.site-navigation{
+  font-size: 14px;
+  line-height: 26px;
+  list-style: none;
+  font-weight: bold;
+  background-color: #ffffff;
+}
+/*интерактив ссылок основной навигации*/
+.site-navigation a:hover,
+.site-navigation a:focus{
+  color:#81b3d2;
+  outline: none;
+}
+.site-navigation a:active{
+  color: rgba(0, 0, 0, 0.3);
+}
+/*форматирования текста слогана*/
+.features-slogan{
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  background-color: #ffffff;
+}
+/*форматирование текста рекламной заманухи*/
+.features-steep{
+  font-size: 14px;
+  line-height: 26px;
+  background-color: #ffffff;
+}
+/*интерактив кнопок "Поиск" и "Найти"*/
+.search-button-call,
+.search-button{
+  text-transform: uppercase;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #ffffff;
+}
+/*кнопка "Поиск"*/
+.search-button-call{
+  background-color: #766357;
+  border: none;
+}
+                          /*наведение, фокус*/
+.search-button-call:hover,
+.search-button-call:focus{
+  background-color:#604e43;
+  color: rgb(255, 255, 255);
+  outline: none;
+}
+                          /*нажатие*/
+.search-button-call:active{
+background-color: #503e33;
+outline: none;
+color: rgba(255, 255, 255, 0.302);
+}
+/*кнопка "Найти"*/
+.search-button{
+  background-color: #81b3d2;
+  border: none;
+}
+
+                        /*наведение, фокус*/
+.search-button:hover,
+.search-button:focus{
+  background-color:#669ec0;
+  color: rgb(255, 255, 255);
+  outline: none;
+}
+
+                        /*нажатие*/
+.search-button:active{
+background-color: #5496bd;
+outline: none;
+color: rgba(255, 255, 255, 0.302);
+}
+/*оформление формы - заезд-выезд*/
+/*не нажато*/
+#search-date-arrival,
+#search-date-departure,
+#search-adults,
+#search-children,
+.search-button-calendar,
+.search-button-sign{
+  color: #000000;
+  background-color: #f2f2f2;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: normal;
+  font-weight: bold;
+}
+                            /*Интерактив полей заезда-выезда*/
+                            /*Наведение*/
+#search-date-arrival:hover,
+#search-date-departure:hover{
+  background-color: #ebebeb;
+  border: none;
+  outline: none;
+}
+                              /*Фокус*/
+#search-date-arrival:focus,
+#search-date-departure:focus{
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5e5e5;
+  outline: none;
+}
+/*Оформление формы взрослые-дети*/
+/*не нажато*/
+.search-button-sign{
+font-size: 11px;
+color:#a9a9a9;
+background-color: #f2f2f2;
+}
+
+/*Наведение*/
+.search-button-sign:hover,
+.search-button-sign:focus{
+color: #000000;
+}
+
+/*нажатие*/
+.search-button-sign:active{
+color: #81b3d2;
+}
+
+/*Инстаграмм*/
+.hashtag{
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+/*Соцсети*/
+.footer-social{
+list-style: none;
+}
+.social-icons{
+  background-color: #81b3d2;
+}
+
+/*Наведение*/
+.social-icons:hover,
+.social-icons:focus{
+  background-color: #669ec0;
+}
+
+/*нажатие*/
+.social-icons:active{
+background-color: #5496bd;
+}
+
+/*Разработчик*/
+.footer-copyright{
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 26px;
+}
