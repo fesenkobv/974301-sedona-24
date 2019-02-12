@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8">
       <title>HTML Academy: Седона</title>
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,700i,800,800i&amp;subset=cyrillic" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet" >
+      <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   </head>
   <body>
 <!--Чердак-->
@@ -22,17 +25,19 @@
     </header>
 <!--Основная часть-->
     <main class="container">
-      <h1 class="visually-hidden">Добро пожаловать в Седону!</h1><!--Скрывается в стилях-->
+<!--Обертка для задника-гор-->
+        <h1 class="visually-hidden">Добро пожаловать в Седону!</h1><!--Скрывается в стилях-->
 <!--Добро пожаловать на фоне гор-->
         <div class="welcom">
           <img src="img/intro-welcome.svg" width="459" height="353" alt="Добро пожаловать в Седону!">
         </div>
-<!--Преимущества-->
+  <!--Преимущества-->
       <section class="features">
         <p class="features-slogan">Седона-небольшой городок в Аризоне,<br>заслуживающий большего!</p>
         <h2 class="features-steep">Рассмотрим 5 причин, по которым Седона круче, чем Гранд каньон!</h2>
 <!--Список преимуществ-->
       </section>
+
 <!--Поиск-->
       <section class="search">
 <!--Вызов формы-->
@@ -84,8 +89,8 @@
 <!--Инста-->
       <a class="hashtag" href="https://www.instagram.com" aria-label="Седона в Инстаграмме">#visitsedona</a>
 <!--Соцсети"-->
-      <div class="footer-social">
-        <ul>
+      <div>
+        <ul class="footer-social">
 <!--Твиттер-->
           <li>
             <a class="social-button" href="https://twitter.com" aria-label="Седона в Твиттере">
@@ -108,9 +113,9 @@
       </div>
 <!--Разработчик"-->
       <p class="footer-copyright">
-        <b>Разработано</b>
-        <a class="button-copyright" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy
-          <img class="img-copyright" src="img/logo-htmlacademy.svg" width="115" height="41" alt="html academy">
+        <b>Website by</b>
+        <a class="button-copyright" href="https://htmlacademy.ru/intensive/htmlcss">
+          <img class="img-copyright" src="img/logo-htmlacademy.svg" width="115" height="41" aria-label="Разработано HTML Academy">
         </a>
       </p>
     </footer>
