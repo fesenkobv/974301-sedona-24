@@ -45,7 +45,7 @@ a{
 .site-navigation a:hover,
 .site-navigation a:focus{
   color:#81b3d2;
-  outline: none;
+  /*outline: none;*/
 }
 .site-navigation a:active{
   color: rgba(0, 0, 0, 0.3);
@@ -82,7 +82,7 @@ a{
 .search-button-call:focus{
   background-color:#604e43;
   color: rgb(255, 255, 255);
-  outline: none;
+  /*outline: none;*/
 }
                           /*нажатие*/
 .search-button-call:active{
@@ -101,7 +101,7 @@ color: rgba(255, 255, 255, 0.302);
 .search-button:focus{
   background-color:#669ec0;
   color: rgb(255, 255, 255);
-  outline: none;
+  /*outline: none;*/
 }
 
                         /*нажатие*/
@@ -142,7 +142,7 @@ color: rgba(255, 255, 255, 0.302);
   border-style: solid;
   border-width: 1px;
   border-color: #e5e5e5;
-  outline: none;
+/*outline: none;*/
 }
 /*Оформление формы взрослые-дети*/
 /*не нажато*/
