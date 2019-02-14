@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8">
       <title>HTML Academy: Седона</title>
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,700i,800,800i&amp;subset=cyrillic" rel="stylesheet">
-      <link href="css/style.css" rel="stylesheet" >
-      <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+      <link href="css/normalize.css" rel="stylesheet">  <!--Подключение файла для улучшения кроссбраузерности-->
+      <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet"> <!--Подключение шрифта-->
+      <link href="css/style.css"> <!--Подключение стилей-->
   </head>
   <body>
 <!--Чердак-->
@@ -43,10 +43,15 @@
 <!--Вызов формы-->
         <button class="search-button-call" type="button">Поиск гостиницы в Седоне</button>
         <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+
+
+
+
+
 <!--Дата заезда-->
             <p class="search-item">
               <label for="search-date-arrival">Дата заезда:</label>
-              <input id="search-date-arrival" type="text" name="date-arrival" value="" placeholder="24 апреля 2017">
+              <input class="search-date-arrival" id="search-date-arrival" type="text" name="date-arrival" value="" placeholder="24 апреля 2017">
               <button class="search-button-calendar" type="button" >
                 <img src="img/calendar.svg" width="21" height="22" alt="Календарь для выбора даты">
               </button>
@@ -54,7 +59,7 @@
 <!--Дата выезда-->
             <p class="search-item">
               <label for="search-date-departure">Дата выезда:</label>
-              <input id="search-date-departure" type="text" name="date-departure" value="" placeholder="4 июля 2017">
+              <input class="search-date-departure" id="search-date-departure" type="text" name="date-departure" value="" placeholder="4 июля 2017">
               <button class="search-button-calendar" type="button" >
                 <img src="img/calendar.svg" width="21" height="22" alt="Календарь для выбора даты">
               </button>
@@ -64,7 +69,7 @@
               <label for="search-adults">Взрослые:</label>
               <button type="button" class="search-button-sign">-
               </button>
-              <input id="search-adults" type="text" name="adults" value="">
+              <input class="search-adults" id="search-adults" type="text" name="adults" value="">
               <button type="button" class="search-button-sign">+
               </button>
             </p>
@@ -73,10 +78,16 @@
               <label for="search-children">Дети:</label>
               <button type="button" class="search-button-sign">-
               </button>
-              <input id="search-children" type="text" name="children" value="">
+              <input class="search-children" id="search-children" type="text" name="children" value="">
               <button type="button" class="search-button-sign">+
               </button>
             </p>
+
+
+
+
+
+
 <!--Кнопка найти-->
             <button class="search-button" type="submit">Найти</button>
           </form>
