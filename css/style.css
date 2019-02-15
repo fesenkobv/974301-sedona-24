@@ -163,12 +163,77 @@ color: #000000;
 color: #81b3d2;
 }
 
+/*Оформление кнопок отелей каталога*/
+/*не нажато*/
+.button-deploy{
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+  color:#ffffff;
+  background-color: #81b3d2;
+}
+/*наведение, фокус*/
+.button-deploy:hover,
+.button-deploy:focus{
+background-color:#669ec0;
+}
+/*нажатие*/
+.button-deploy:active{
+background-color: #5496bd;
+color: rgba(255, 255, 255, 0.302);
+}
+
+/*кнопка "Забронировать"*/
+/*не нажато*/
+.button-book{
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+  color:#ffffff;
+  background-color: #766357;
+}
+  /*наведение, фокус*/
+  .button-book:hover,
+  .button-book:focus{
+  background-color:#604e43;
+  }
+  /*нажатие*/
+  .button-book:active{
+  background-color: #503e33;
+  color: rgba(255, 255, 255, 0.302);
+  }
+
+.catalog-item{
+  list-style: none;
+}
+
+/*название гостиницы*/
+/*не наведено*/
+.catalog-category a{
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color:#000000;
+}
+
+/*наведение, фокус*/
+.catalog-category a:hover,
+.catalog-category a:focus{
+color:#81b3d2;
+}
+
+/*нажатие*/
+.catalog-category a:active{
+color: rgba(0, 0, 0, 0.302);
+}
+
 /*Инстаграмм*/
 .hashtag{
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
 }
+
 
 /*Соцсети*/
 .footer-social{
