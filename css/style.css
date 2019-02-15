@@ -3,7 +3,9 @@ body{
   padding: 0;
   margin: 0;
 /*Свойства текста*/
-  font-family: "PT Sans";
+/*веб-безопасный шрифт и семейство шрифтов*/
+  font-family: "PT Sans Narrow", "Arial", "sans-serif";
+
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
@@ -11,8 +13,6 @@ body{
   text-transform: uppercase;
 /*Задник*/
   background-color: #f2f2f2;
-/*веб-безопасный шрифт и семейство шрифтов*/
-  font-family: "PT Sans Narrow", "Arial", "sans-serif";
 }
 /*визуально спрятанный*/
 .visually-hidden {
