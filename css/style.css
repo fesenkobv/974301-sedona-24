@@ -260,3 +260,36 @@ background-color: #5496bd;
   font-size: 14px;
   line-height: 26px;
 }
+
+
+
+/*-----------------------------Макросетка-------------------------------------*/
+/*ОБОЗНАЧЕНИЯ БЛОКОВ*/
+/*.main-header{
+  width: 1200px;
+  height: 565;
+  border: 1px solid #0000FF;
+}*/
+
+
+
+.main-header-logo{
+  width: 140px;
+  height: 71px;
+  display: block;
+
+ }
+
+.site-navigation{
+  display: flex;
+  padding: 0 75px;
+  justify-content: flex-start;
+  }
+
+  .site-navigation li:nth-child(3){
+  margin-left: auto;
+  }
+
+  .site-navigation li{
+    padding-right: 140px;
+  }
