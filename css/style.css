@@ -291,5 +291,7 @@ background-color: #5496bd;
   }
 
   .site-navigation li{
-    padding-right: 140px;
+    width: 240 px;
+
+
   }
