@@ -23,9 +23,9 @@ body{
   margin: -1px;
   }
 /*картинка задника*/
-.welcom{
-  background-image: url("../img/background-photo.jpg");
-  background-position: top center;
+.welcome{
+  background-image: url("../img/intro-mask.svg"), url("../img/background-photo.jpg");
+  background-position: bottom center, top center;
   background-repeat: no-repeat;
 }
 /*фороматирование ссылок*/
@@ -264,34 +264,93 @@ background-color: #5496bd;
 
 
 /*-----------------------------Макросетка-------------------------------------*/
-/*ОБОЗНАЧЕНИЯ БЛОКОВ*/
-/*.main-header{
+body{
+  width: 1280px;
+}
+
+
+  .container{
   width: 1200px;
-  height: 565;
-  border: 1px solid #0000FF;
-}*/
+  margin: 0 auto;
+  }
+
+.main-header{
+  width: 1200px;
 
 
+  /*После прочтения стереть*/
+  background-color: blue;
+}
 
 .main-header-logo{
   width: 140px;
   height: 71px;
   display: block;
-
- }
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left:-70px;
+  }
 
 .site-navigation{
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
   display: flex;
-  padding: 0 75px;
-  justify-content: flex-start;
+  justify-content: space-between;
   }
+.site-navigation li{
+  width: 240 px;
+  padding: 0 70px;
+  padding-top: 14px;
+  padding-bottom: 16px;
+}
 
   .site-navigation li:nth-child(3){
   margin-left: auto;
   }
 
-  .site-navigation li{
-    width: 240 px;
+.welcome-picture{
+  display: block;
+  margin: 0 auto;
+  width: 458px;
+  height: 352px;
+}
 
+.welcome{
+  padding-top: 76px;
+  height:432px;
+}
 
-  }
+.features{
+background-color: #ffffff;
+}
+
+.features-slogan{
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.features-steep{
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.interest{
+background-color: #ffffff;
+}
+
+.interest-ask{
+  text-align: center;
+  padding-top: 55px;
+  padding-bottom: 35px;
+  font-size: 30px;
+  font-weight: bold;
+    text-transform: uppercase;
+}
+
+.interest-date{
+  text-align: center;
+  padding-bottom: 135px;
+}
