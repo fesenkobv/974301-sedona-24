@@ -58,6 +58,7 @@ a{
   line-height: 26px;
   font-weight: bold;
   background-color: #ffffff;
+  margin: 0;
 }
 /*форматирование текста рекламной заманухи*/
 .features-steep{
@@ -343,6 +344,7 @@ background-color: #ffffff;
   font-size: 30px;
   font-weight: bold;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .interest-date{
@@ -405,6 +407,7 @@ background-color: #ffffff;
 .catalog-list{
   /*border-bottom: 1px solid #e5e5e5;
   border-top: 1px solid #e5e5e5;*/
+margin: 0;
   padding-left: 0;
 }
 .catalog-item{
