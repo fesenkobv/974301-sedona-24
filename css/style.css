@@ -238,7 +238,7 @@ color: rgba(0, 0, 0, 0.302);
 
 
 /*Соцсети*/
-.footer-social{
+.footer-social ul{
 list-style: none;
 }
 .social-icons{
@@ -261,9 +261,7 @@ background-color: #5496bd;
   text-transform: uppercase;
   font-size: 14px;
   line-height: 26px;
-}
-
-
+  }
 
 /*-----------------------------Макросетка-------------------------------------*/
 .container{
@@ -350,4 +348,86 @@ background-color: #ffffff;
 .interest-date{
   text-align: center;
   padding-bottom: 135px;
+}
+
+.result{
+  display: flex;
+  justify-content: flex-start;
+  background-color: #ffffff;
+  align-items:center;
+  /*border-bottom: 1px solid #e5e5e5;*/
+}
+
+.result-found{
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 70px;
+}
+.sort{
+  padding-left: 50px;
+}
+.criterion-sort{
+  list-style: none;
+  display: flex;
+}
+
+.sort, .criterion-sort{
+  font-size: 12px;
+  line-height: 18px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.criterion-priсe{
+  padding-left: 40px;
+  color: rgb(129, 179, 210);
+}
+
+.criterion-type,
+.criterion-rating{
+  padding-left: 30px;
+  color: rgba(0, 0, 0, 0.302);
+  text-decoration: underline dotted;
+}
+
+.up-down{
+  margin-left: auto;
+  margin-right: 105px;
+}
+
+.hotels{
+background-color: #ffffff;
+/*border-top: 1px solid #e5e5e5;*/
+}
+
+.catalog-list{
+  /*border-bottom: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;*/
+  padding-left: 0;
+}
+.catalog-item{
+  padding-left: 40px;
+  border-bottom: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
+
+}
+.main-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  background-color: #ffffff;
+}
+
+.hashtag{
+  width: 240px;
+  margin-left: 70px;
+}
+
+.footer-copyright{
+  width: 240px;
+  margin-right: 70px;
+  padding-top: 35px;
+  padding-bottom: 40px;
 }
