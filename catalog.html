@@ -8,6 +8,7 @@
     <link href="css/style.css" rel="stylesheet"> <!--Подключение стилей-->
   </head>
   <body>
+    <div class="container">
 <!--Чердак-->
     <header class="main-header">
 <!--Основная навигация-->
@@ -30,7 +31,22 @@
             <h2 class="visually-hidden">Фильтр товаров</h2><!--Скрыть-->
 <!--Здесь будет фильтр-->
           </section>
-<!--Перечень отелей-->
+<!--Результат поиска-->
+          <div class="result">
+            <h2 class="visually-hidden">Сортировка найденного по параметрам</h2>
+            <p class="result-found">Найдено: 3</p>
+            <p class="sort">Сортировка:</p>
+            <ul class="criterion-sort">
+              <li class="criterion-priсe">По цене</li>
+              <li class="criterion-type">По типу</li>
+              <li class="criterion-rating">По рейтингу</li>
+            </ul>
+            <p class="up-down">
+            <img src="img/icon-up-dir.svg" width="11" height="10" alt="По возрастанию">
+            <img src="img/icon-down-dir.svg" width="11" height="10" alt="По возрастанию">
+            </p>
+          </div>
+<!--Перечень найденных отелей-->
           <section class="hotels">
             <h2 class="visually-hidden">Отобранные отели</h2>
             <ul class="catalog-list">
@@ -56,7 +72,6 @@
                     <img src="img/star.svg" width="14" height="14">
                   </p>
                   <b>Рейтинг:8,5</b>
-                </div>
               </li>
 <!--Карточка отеля 2-->
               <li class="catalog-item">
@@ -72,7 +87,6 @@
                   <b>от 5000 P</b>
                   <a class="button-book" href="#">Забронировать</a>
                 </div>
-                </div>
 <!--input / label Здесь будет рейтинг звездочками-->
                   <p>
                     <img src="img/star.svg" width="14" height="14">
@@ -80,7 +94,6 @@
                     <img src="img/star.svg" width="14" height="14">
                   </p>
                   <b>Рейтинг:8,9</b>
-                </div>
               </li>
 <!--Карточка отеля 3-->
               <li class="catalog-item">
@@ -102,13 +115,14 @@
                     <img src="img/star.svg" width="14" height="14">
                   </p>
                     <b>Рейтинг:9.2</b>
-                  </div>
-              </li>
+                </li>
             </ul>
           </section>
         </main>
+
         <!--Подвал"-->
             <footer class="main-footer">
+
         <!--Инста-->
               <a class="hashtag" href="https://www.instagram.com" aria-label="Седона в Инстаграмме">#visitsedona</a>
         <!--Соцсети"-->
@@ -136,11 +150,12 @@
               </div>
         <!--Разработчик"-->
               <p class="footer-copyright">
-                <b>Разработано</b>
-                <a class="button-copyright" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy
+                <b>Website by</b>
+                <a class="button-copyright" href="https://htmlacademy.ru/intensive/htmlcss">
                   <img class="img-copyright" src="img/logo-htmlacademy.svg" width="115" height="41" alt="html academy">
                 </a>
               </p>
             </footer>
+          </div>
           </body>
         </html>
