@@ -28,7 +28,7 @@ body{
   background-position: center 451px, top center;
   background-repeat: no-repeat;
   background-size: 100% 59px, cover;
-  background-color:
+  background-color: 7aaace;
 }
 /*фороматирование ссылок*/
 a{
@@ -270,14 +270,6 @@ background-color: #5496bd;
   margin: 0 auto;
   }
 
-.main-header{
-  width: 1200px;
-
-
-  /*После прочтения стереть*/
-  background-color: blue;
-}
-
 .main-header-logo{
   width: 140px;
   height: 71px;
@@ -296,7 +288,7 @@ background-color: #5496bd;
   justify-content: space-between;
   }
 .site-navigation li{
-  width: 240 px;
+  width: 240px;
   padding: 0 70px;
   padding-top: 14px;
   padding-bottom: 16px;
