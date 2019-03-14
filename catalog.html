@@ -69,10 +69,20 @@
                   </ul>
                 </fieldset>
 <!--Цена с ползунком-->
+<!--От и до-->
                 <fieldset class="range-filter">
                   <legend>Стоимость в сутки (р):</legend>
-                  <div class="price-controls"><input class="min-price" type="text" value="От 0">
-                    <input class="max-price" type="text" value="До 3000">
+                  <div class="price-controls">
+                    <div class="price-controls-min">
+                      <label for="min-price">От</label>
+                      <input id="min-price" class="min-price" type="text" value="0">
+                    </div>
+                    <div class="price-controls-max">
+                      <label for="max-price">До</label>
+                      <input id="max-price" class="max-price" type="text" value="3000">
+                    </div>
+
+<!--Ползунок-->
                   </div>
                   <div class="range-controls">
                     <div class="scale">
@@ -81,28 +91,45 @@
                     <div class="toggle min-toggle"></div>
                     <div class="toggle max-toggle"></div>
                   </div>
+<!--Кнопка Показать-->
                   <input class="form-btn" type="submit" id="form-btn" name="form-btn" value="Показать">
                 </fieldset>
               </form>
             <!--</div>-->
           </section>
+
 <!--Результат поиска-->
           <div class="result">
             <h2 class="visually-hidden">Сортировка найденного по параметрам</h2>
             <p class="result-found">Найдено: 3</p>
             <p class="sort">Сортировка:</p>
             <ul class="criterion-sort">
-              <li class="criterion-priсe">По цене</li>
-              <li class="criterion-type">По типу</li>
-              <li class="criterion-rating">По рейтингу</li>
+              <li>
+                <a href="catalog.html" class="criterion-priсe">По цене</a>
+              </li>
+              <li>
+                <a href="catalog.html" class="criterion-type">По типу</a>
+              </li>
+              <li>
+                <a href="catalog.html" class="criterion-rating">По рейтингу<a/>
+              </li>
             </ul>
-            <p class="up-down">
-            <!--<img src="img/icon-up-dir.svg" width="11" height="10" alt="По возрастанию">-->
-            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path fill="#cacaca" d="M5.5 0L0 10h11z"/></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path fill="#81b3d2" d="M5.5 10L0 0h11"/></svg>
-              <!--<img src="img/icon-down-dir.svg" width="11" height="10" alt="По убыванию">-->
-            </p>
+
+<!--Значек соритировки-->
+            <ul class="up-down">
+              <li>
+                  <a href="catalog.html">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path fill="#cacaca" d="M5.5 0L0 10h11z"/></svg>
+                </a>
+              </li>
+              <li>
+                <a href="catalog.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path fill="#81b3d2" d="M5.5 10L0 0h11"/></svg>
+              </a>
+              </li>
+            </ul>
           </div>
+
 <!--Перечень найденных отелей-->
           <section class="hotels">
             <h2 class="visually-hidden">Отобранные отели</h2>
