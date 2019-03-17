@@ -12,7 +12,9 @@ body{
   color: #000000;
   text-transform: uppercase;
 /*Задник*/
-  background-color: #f2f2f2;
+  /*background-color: #f2f2f2;*/
+  background-color: #ffffff;
+
 }
 /*визуально спрятанный*/
 .visually-hidden {
@@ -73,7 +75,19 @@ a{
   line-height: 26px;
   background-color: #ffffff;
   font-weight: normal;
+  color: #333333;
 }
+
+/*Карта*/
+.map{
+display: inline-block;
+width: 1200px;
+height: 475px;
+overflow: hidden;
+vertical-align: top;
+}
+
+
 /*интерактив кнопок "Поиск" и "Найти"*/
 .search-button-call,
 .search-button{
@@ -91,8 +105,6 @@ a{
   vertical-align: top;
   font: inherit;
   text-transform: inherit;
-
-
   position: relative;
   z-index: 2;
   margin-top: 32px;
@@ -123,6 +135,7 @@ a{
   font-weight: bold;
   line-height: 26px;
   text-transform: uppercase;
+
 }
 
 .search-item label,
@@ -132,6 +145,7 @@ a{
 
 .search-item label{
   width: 112px;
+
 }
 
 .search-item input{
@@ -155,11 +169,7 @@ a{
   position: relative;
 }
 
-
-
-
-
-                          /*наведение, фокус*/
+/*наведение, фокус*/
 .search-button-call:hover,
 .search-button-call:focus{
   background-color:#604e43;
@@ -207,7 +217,7 @@ color: rgba(255, 255, 255, 0.302);
   text-transform: uppercase;
   font-size: 14px;
   line-height: normal;
-  font-weight: bold;
+  /*font-weight: bold;*/
 }
 
 .search-button-calendar{
@@ -440,7 +450,7 @@ background-color: #5496bd;
 .features-list-one p{
   margin: 0;
   padding: 0 50px;
-  letter-spacing: 0.5px;
+  /*letter-spacing: 0.5px;*/
 }
 
 /*--------------------------second--------------------------------*/
@@ -610,6 +620,7 @@ background-color: #5496bd;
 .features-list-five span{
   display: block;
   padding-bottom: 22px;
+  color: #333333;
 }
 
 .features-list-three p,
@@ -706,7 +717,7 @@ background-color: #ffffff;
   position: relative;
   z-index: 20;
   margin: 0 auto;
-  padding-top: 30px;
+  padding-top: 25px;
   width: 568px;
   text-align: center;
 }
@@ -720,9 +731,9 @@ background-color: #ffffff;
   text-transform: uppercase;
   margin: 0;*/
 
-  margin-bottom: 32px;
+  margin-bottom: 23px;
   font-size: 30px;
-  line-height: 24px;
+  line-height: 36px;
 }
 
 .interest-date{
@@ -731,6 +742,7 @@ background-color: #ffffff;
 
   padding: 0 65px;
   line-height: 24px;
+  color: #333333;
 }
 
 .result{
@@ -856,7 +868,6 @@ background-color: #ffffff;
     background-color: #669ec0;
   }
 
-,
 .social-button:active{
   background-color: #5496bd;
 }
@@ -908,7 +919,7 @@ background-color: #ffffff;
 }
 .catalog-photo a{
   display: block;
-  margin-top: 29px;
+  margin-top: 31px;
 }
 
 /*информационный блок по гостинице*/
@@ -917,8 +928,8 @@ background-color: #ffffff;
   flex-wrap:wrap;
   align-items:flex-start;
   width: 270px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 27px;
+  padding-bottom: 24px;
 }
 
 .catalog-category{
@@ -933,19 +944,24 @@ background-color: #ffffff;
   display: block;
   width: 110px;
   margin-right: 5px;
+  line-height: 21px;
 }
 
 .catalog-item-price{
   display: block;
-  width: 142px;
+  width: 1
+  42px;
   margin-right: 5px;
+  line-height: 21px;
 }
 
 .button-deploy,
 .button-book{
   display: inline-block;
-  margin-right: 5px;
+  margin-top: 5px;
+  margin-right: 6px;
   padding: 3px 17px;
+  vertical-align: top;
 }
 
 .catalog-rating{
@@ -998,6 +1014,7 @@ background-color: #ffffff;
   background-image: url(../img/filter-background.jpg);
   background-repeat: no-repeat;
   min-height: 191px; /*217-26*/
+  background-position: 0 16%;
 }
 
 .checkboxes-infrastructure,
@@ -1017,7 +1034,7 @@ background-color: #ffffff;
   }
 
 .checkboxes-infrastructure{
-  margin-right: 53px;
+  margin-right: 55px;
 }
 
 .checkboxes-infrastructure legend,
@@ -1051,95 +1068,81 @@ background-color: #ffffff;
     margin-bottom: 20px;
   }
 
+/*Скрываем стандартный чекбокс*/
   .checkboxes-infrastructure input[type=checkbox],
   .checkboxes-housing input[type=checkbox]{
   display: none;
 }
 .checkboxes-infrastructure label,
 .checkboxes-housing label{
-    display: block;
-    position: relative;
-    padding-left: 40px;
-
-    margin-bottom: 25px;
-
-    color: #fff;
-    font-size: 14px;
-    line-height: 21px;
+  display: block;
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 25px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 21px;
 }
-
+/*OFF*/
 .checkboxes-infrastructure label::before,
 .checkboxes-housing label::before{
-    content: "";
-    display: inline-block;
-
-    position: absolute;
-
-    top: 0;
-    left: 0;
-
-    width: 19px;
-    height: 19px;
-
-    border: solid #fff 2px;
-    border-radius: 4px;
+  position: absolute;
+  display: block;
+  content: '';
+  top: -1px;
+  left: -1px;
+  width: 27px;
+  height: 26px;
+  background-image: url("../img/checkbox-off.svg");
+  background-repeat: no-repeat;
 }
 
-.checkboxes-infrastructure input[type=checkbox]:checked + label::before,
-.checkboxes-housing input[type=checkbox]:checked + label::before{
-    content: "\2714"; /*наиболее подходящая галка из Юникода по форме*/
-    color: #fff;
-    font-size: 20px;
-    text-align: center;
-    line-height: 20px;
-}
+/*ON*/
+  .checkboxes-infrastructure input[type=checkbox]:checked + label::before,
+  .checkboxes-housing input[type=checkbox]:checked + label::before{
+      content: '';
+      top: -1px;
+      left: -1px;
+      width: 27px;
+      height: 26px;
+      background-image: url("../img/checkbox-on.svg");
+      background-repeat: no-repeat;
+    }
 
-.checkboxes-infrastructure input[type="checkbox"]:disabled + label::before,
-.checkboxes-housing input[type="checkbox"]:disabled + label::before {
-    border-color: #6a6a6a;
-    opacity: 0.6;
-}
+/*Бегунок*/
 
-.checkboxes-infrastructure input[type="checkbox"]:checked:disabled + label::before,
-.checkboxes-housing input[type="checkbox"]:checked:disabled + label::before{
-    color: #6a6a6a;
-    opacity: 0.6;
-}
-
-
-
-
-/*.range-filter legend{
-  margin-bottom: 2px;
-  }*/
+.range-filter legend{
+  padding-left: 2px;
+  }
 
 .price-controls {
-    /*display: block;*/
-    border: solid #fff 2px;
-    border-radius: 3px;
-    margin-bottom: 10px;
+  border: solid #fff 2px;
+  border-radius: 3px;
+  margin-bottom: 10px;
 }
 
 .price-controls:before {
-    position: absolute;
-    content: "";
-    height: 22px;
-    width: 2px;
-    background: #ffffff;
-    margin-top: 4px;
-    margin-left: 156px;
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 2px;
+  background: #ffffff;
+  margin-top: 4px;
+  margin-left: 156px;
 }
-
 
 .price-controls-min,
 .price-controls-max{
   display: inline-block;
   width: 49%;
   text-align: right;
+  vertical-align: top;
 }
+
 .price-controls-min{
 margin-right: auto;
 }
+
 .min-price, .max-price{
     width: 69px;
     padding: 5px 0;
@@ -1153,13 +1156,12 @@ margin-right: auto;
 }
 
 .max-price{
-      width: 77px;
+      width: 80px;
 }
 
 .price-controls label{
   color: #ffffff;
 }
-
 
 .range-controls {
     position: relative;
@@ -1184,6 +1186,10 @@ margin-right: auto;
     opacity: 0.6;
 }
 
+.bar{
+  margin-left: 80%;
+}
+
 .range-controls .toggle{
     position:absolute;
     top: 2px;
@@ -1205,7 +1211,7 @@ margin-right: auto;
     left: 0;
 }
 .range-controls .max-toggle{
-    left: 75%;
+    left: 80%;
 }
 
 .range-filter input.form-btn {
@@ -1218,7 +1224,7 @@ margin-right: auto;
     background-color: inherit;
     font-size: 14px;
     line-height: 21px;
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", "Arial", "sans-serif";
     text-transform: uppercase;
 }
 
