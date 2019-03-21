@@ -5,7 +5,7 @@
 	<title>HTML Academy: Седона</title>
 	<link href="css/normalize.css" rel="stylesheet"><!--Подключение файла для улучшения кроссбраузерности-->
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet"><!--Подключение шрифта-->
-	<link href="css/style.css" rel="stylesheet"><!--Подключение стилей-->
+	<link href="css/style.min.css" rel="stylesheet"><!--Подключение стилей-->
 </head>
 <body>
 	<div class="container">
@@ -88,12 +88,14 @@
 						<p>Большинство едет в Гранд Каньон и толпится там</p>
 					</li>
 				</ul>
-			</section><!--Поиск отеля-->
+			</section>
+      <!--Поиск отеля-->
 			<section class="interest">
 				<h2 class="interest-ask">Заинтересовались?</h2>
 				<p class="interest-date">Укажите предполагаемые даты поездки,<br>
 				и мы покажем вам лучшие предложения гостиниц в Седоне</p><!--Вызов формы-->
-				<button class="search-button-call" id="search-button-call" type="button">Поиск гостиницы в Седоне</button>
+        <div class="interest-form">
+        <button class="search-button-call" id="search-button-call" type="button">Поиск гостиницы в Седоне</button>
 				<form action="https://echo.htmlacademy.ru" class="search-form" method="post">
 					<!--Дата заезда-->
 					<div class="search-item">
@@ -122,7 +124,9 @@
 					</div><!--Кнопка найти-->
 					<button class="search-button" type="submit">Найти</button>
 				</form>
-			</section><!--Карта-->
+      </div>
+			</section>
+      <!--Карта-->
 			<div class="map"><img alt="Город Седона на карте" src="img/map.jpg"></div>
 		</main><!--Завершение основного содержания-->
 		<!--Подвал"-->
@@ -155,7 +159,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/script.js">
+	<script src="js/script.min.js">
 	</script>
 </body>
 </html>
