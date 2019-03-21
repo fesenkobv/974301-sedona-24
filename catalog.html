@@ -5,7 +5,7 @@
 	<title>HTML Academy: Седона</title>
 	<link href="css/normalize.css" rel="stylesheet"><!--Подключение файла для улучшения кроссбраузерности-->
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet"><!--Подключение шрифта-->
-	<link href="css/style.css" rel="stylesheet"><!--Подключение стилей-->
+	<link href="css/style.min.css" rel="stylesheet"><!--Подключение стилей-->
 </head>
 <body>
 	<div class="container">
@@ -25,8 +25,8 @@
 						<a href="map-state.html">Карта штата</a>
 					</li>
 					<li class="site-navigatyion-current">
-						<a href="catalog.html">Гостиницы</a>
-					</li><!--Формальная ссылка на текущую страницу-->
+						<a class="active">Гостиницы</a>
+					</li>
 				</ul>
 			</nav>
 		</header><!--Основная часть-->
@@ -34,9 +34,7 @@
 			<h1 class="visually-hidden">Отели</h1><!--Скрыть-->
 			<!--Фильтр-->
 			<section>
-				<!--Фильтр-->
-				<h2 class="visually-hidden">Фильтр отелей</h2><!--Скрыть-->
-				<!--<div class="cover-inner clearfix">-->
+				<h2 class="visually-hidden">Фильтр отелей</h2>
 				<form class="filters">
 					<!--Инфраструктура-->
 					<fieldset class="checkboxes-infrastructure">
@@ -44,7 +42,7 @@
 						<ul>
 							<li><input checked id="pool" type="checkbox"> <label for="pool">Бассейн</label></li>
 							<li><input id="parking" type="checkbox"> <label for="parking">Парковка</label></li>
-							<li><input id="wi-fi" type="checkbox"> <label for="wi-fi">Wi-Fi</label></li>
+							<li><input id="wi-fi" type="checkbox"><label for="wi-fi">Wi-Fi</label></li>
 						</ul>
 					</fieldset><!--Тип жилья-->
 					<fieldset class="checkboxes-housing">
@@ -136,7 +134,7 @@
 							<a href="catalog-item#.html"><img alt="Villas poco diablo" height="90" src="img/hotel-3.jpg" width="135"></a>
 						</div>
 						<div class="catalog-info">
-							<h3 class="catalog-category"><a href="catalog-item#.html">Villas poco diablo</a></h3><!--Ссылка на страницу конкретного отеля-->
+							<h3 class="catalog-category"><a href="catalog-item#.html">Villas at poco diablo</a></h3><!--Ссылка на страницу конкретного отеля-->
 							<span class="catalog-item-title">Аппартаменты</span> <span class="catalog-item-price">от 2000 P</span> <a class="button-deploy" href="#">Подробнее</a> <a class="button-book" href="#">Забронировать</a>
 						</div><!---Здесь будет рейтинг звездочками-->
 						<div class="catalog-rating">
